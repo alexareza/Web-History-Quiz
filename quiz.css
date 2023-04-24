@@ -1,0 +1,60 @@
+body {
+    background-color: #f6e3ff;
+    align-items: center;
+    font-family: 'Didact Gothic';
+    background-color: rgb(247, 247, 247);
+    font-size: 12pt;
+}
+input[type="text"]:focus,input[type="password"]:focus  {
+    outline: none;
+    border: 2px solid #9474b9;
+}
+.button {
+background-color: #ffffff;
+border-radius: 24px;
+border-style: none;
+box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+box-sizing: border-box;
+color: #3c4043;
+cursor: pointer;
+font-size: 12px;
+font-weight: 500;
+height: 25px;
+letter-spacing: .25px;
+line-height: normal;
+max-width: 100%;
+overflow: visible;
+padding: 2px 24px;
+text-transform: none;
+touch-action: manipulation;
+width: auto;
+}
+
+.button:hover {
+background: #fbf6fe;
+color: #7b5e9c;
+}
+
+.button:active {
+box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+outline: none;
+}
+
+.button:focus {
+outline: none;
+border: 2px solid #9474b9;
+}
+
+
+h4 {
+    font-weight: normal;
+    
+}
+
+/* h2{
+    text-align: center;
+} */
+
+th {
+    font-size: 14pt;
+}
